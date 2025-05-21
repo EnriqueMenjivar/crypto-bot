@@ -1,0 +1,24 @@
+# Ignore environment files (store secrets, tokens, etc.)
+.env
+
+# Ignore Python bytecode cache
+__pycache__/
+
+# Ignore logs directory
+logs/
+
+# Ignore CSV output or data files
+trades.csv
+
+# Optional: Ignore virtual environment folders if present
+venv/
+env/
+*.py[cod]
+
+# You may choose to keep Python scripts and requirements.txt
+# Uncomment below lines only if you want to ignore these source files
+# crypto-bot.py
+# main.py
+# trade_logger.py
+# requirements.txt
+
